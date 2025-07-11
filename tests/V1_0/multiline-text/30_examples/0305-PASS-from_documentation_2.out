@@ -1,0 +1,3 @@
+main = SectionWithNames()
+main.text_1 = Text("Content")
+main.text_2 = Text("Content")

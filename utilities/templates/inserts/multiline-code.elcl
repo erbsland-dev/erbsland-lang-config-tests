@@ -1,0 +1,39 @@
+❮a: encoding ctrl❯      # Test encoding an control characters
+❮b: encoding ctrl end❯  # also test unexpected document end.
+❮c: itab idel❯          # Test indentation pattern errors
+❮d: ispace itab❯        # Test indentation pattern errors
+# Erbsland Configuration Language Test File
+[main]
+❮fail: start_on_line❯
+value: ```❮b❯
+❮b❯    ❮b❯first line❮b❯
+❮b❯    ❮b❯second line
+❮b❯    ❮b❯```❮a❯
+❮fail: start_next_line❯
+value:
+❮b❯    ❮b❯```
+    first line
+    second line
+    ```
+❮fail: start_on_line_with_comment❯
+value: ```  ❮b❯# Comm❮b❯ent
+    first line
+    second line
+    ```  ❮a❯# Com❮a❯ment
+❮fail: start_next_line_with_comment❯
+value:   # Comment
+    ```  ❮b❯# Com❮b❯ment
+    first line
+    second line
+    ```
+❮fail: indentation_same_line❯
+value: ```
+❮d❯    first line
+  ❮c❯  second line
+  ❮c❯  ```
+❮fail: indentation_next_line❯
+value:
+❮d❯    ```
+  ❮c❯  first line
+  ❮c❯  second line
+  ❮c❯  ```

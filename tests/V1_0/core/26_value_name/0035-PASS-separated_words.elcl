@@ -1,0 +1,10 @@
+# Erbsland Configuration Language Test File
+[main]
+one_two: 123
+one three: 123
+one_two_three: 123
+one two four: 123
+a_a_a_a_a_a_a: 123
+a_aa_aa_aa_aa_a: 123
+a_1_2_3_4_5_6: 123
+a_12_23_45_67_8: 123

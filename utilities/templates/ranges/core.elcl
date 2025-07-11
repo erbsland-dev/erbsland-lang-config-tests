@@ -1,0 +1,78 @@
+❮a: PASS letter FAIL digit underscore letter_lookalike digit_lookalike invisible combining❯  # First position of a name
+❮b: PASS letter digit space underscore FAIL letter_lookalike digit_lookalike invisible combining❯ # Middle position of a name
+❮c: PASS letter digit FAIL space underscore letter_lookalike digit_lookalike invisible combining❯  # Middle position separator 
+❮d: PASS letter digit FAIL underscore letter_lookalike digit_lookalike invisible combining❯  # Last position of a name
+❮e: PASS escape_letter escape_unicode FAIL wrong_escape_letter wrong_escape_unicode escape_lookalike❯
+# Erbsland Configuration Language Test File
+❮subdir: section❯
+❮test: first_word❯
+[❮a❯]
+❮test: first_letter❯
+[❮a❯name]
+❮test: two_letters❯
+[a❮d❯]
+❮test: second_letter❯
+[a❮b❯name]
+❮test: first_word_one_letter❯
+[❮a❯_name]
+❮test: last_word_one_letter❯
+[name_❮d❯]
+❮test: last_word_first_letter❯
+[name_❮c❯name]
+❮test: last_letter❯
+[abcxyz❮d❯]
+❮subdir: subsection❯
+❮test: first_word❯
+[main.❮a❯]
+❮test: first_letter❯
+[main.❮a❯name]
+❮test: two_letters❯
+[main.a❮d❯]
+❮test: second_letter❯
+[main.a❮b❯name]
+❮test: first_word_one_letter❯
+[main.❮a❯_name]
+❮test: last_word_one_letter❯
+[main.name_❮d❯]
+❮test: last_word_first_letter❯
+[main.name_❮c❯name]
+❮test: last_letter❯
+[main.abcxyz❮d❯]
+❮subdir: value❯
+❮test: first_word❯
+[main]
+❮a❯: 12
+❮test: first_letter❯
+[main]
+❮a❯name: 12
+❮test: two_letters❯
+[main]
+a❮d❯: 12
+❮test: second_letter❯
+[main]
+a❮b❯name: 12
+❮test: first_word_one_letter❯
+[main]
+❮a❯_name: 12
+❮test: last_word_one_letter❯
+[main]
+name_❮d❯: 12
+❮test: last_word_first_letter❯
+[main]
+name_❮c❯name: 12
+❮test: last_letter❯
+[main]
+abcxyz❮d❯: 12
+❮subdir: escape❯
+❮test: text_escape_one❯
+[main]
+text: "\❮e❯"
+❮test: text_escape_middle❯
+[main]
+text: "escape\❮e❯text"
+❮test: text_escape_sequence❯
+[main]
+text: "escape\n\r\❮e❯\u0009text"
+❮test: text_escape_at_end❯
+[main]
+text: "escape\❮e❯"

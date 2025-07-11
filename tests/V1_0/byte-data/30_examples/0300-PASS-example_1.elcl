@@ -1,0 +1,5 @@
+# Erbsland Configuration Language Test File
+[byte_data_values]
+value a: <01b203c405>           # A single-line value with five bytes.
+value b: < 01B2 03C4 05 >       # Spacing between bytes is allowed.
+value c: <hex: 01 b2 03 c4 05>  # Optional "hex:" prefix is allowed.

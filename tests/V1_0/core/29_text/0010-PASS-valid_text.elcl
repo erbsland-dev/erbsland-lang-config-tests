@@ -1,0 +1,55 @@
+# Erbsland Configuration Language Test File
+[main]
+text 01: ""
+text 02: "abc"
+text 03: "😁"
+text 04: "⇒×⚫︎ 🟢 ︎︎︎⚫︎×⇒"
+text 05: "                              "
+text 06: "\\"
+text 07: "\n"
+text 08: "\N"
+text 09: "\r"
+text 10: "\R"
+text 11: "\t"
+text 12: "\T"
+text 13: "\$"
+text 14: "\""
+text 15: "\u203f"
+text 16: "\U203f"
+text 17: "\u{9}"
+text 18: "\U{9}"
+text 19: "\u{2f}"
+text 20: "\u{92f}"
+text 21: "\u{203f}"
+text 22: "\u{2203f}"
+text 23: "\u{010234}"
+text 24: "\u{0010234}"
+text 25: "\u{00010234}"
+text 26:
+    "abc"
+text 27: "Erbsland Configuration Language Test File"
+text 28: "\"\"\"\"\""
+text 29: "${placeholder}"
+text 30: "\n\r\u{1abc}\r\n\\"
+text 31: "\N\R\U{1ABC}\R\N\\"
+text 32: "abc # Comment"
+text 33: "        Erbsland Configuration Language Test File        "
+text 34: "		Erbsland Configuration Language Test File		"
+text 35: "\"\""
+text 36: "🔵🟣🟢 ⇒ Erbsland ● Configuration ● Language  ● Test ● File ⇐ 🟢🟣🔵"
+text 37: "#"# Comment
+text 38: "#" # Comment
+text 39: ""# Comment
+text 40: "" # Comment
+text 41:# Comment
+    ""
+text 42: # Comment
+    ""
+text 43: 
+    "" # Comment
+text 44:# Comment
+    "abc"
+text 45: # Comment
+    "abc"
+text 46: 
+    "abc" # Comment

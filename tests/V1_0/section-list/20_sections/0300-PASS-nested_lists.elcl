@@ -1,0 +1,30 @@
+# Erbsland Configuration Language Test File
+*[main.server]
+name: "host01"
+port: 9000
+
+*[.filter]
+text: "a"
+reject: Yes
+
+*[.filter]
+text: "x"
+reject: Yes
+
+[.filter.log]
+error: "Rejected x"
+
+*[main.server]
+name: "host02"
+port: 8000
+
+*[.filter]
+text: "f"
+reject: No
+
+[.filter.log]
+error: "Accepted f"
+
+*[.filter]
+text: "g"
+reject: Yes

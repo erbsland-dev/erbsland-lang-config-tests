@@ -1,0 +1,6 @@
+# Erbsland Configuration Language Test File
+[main]
+value: <<<  # Comment
+    010203 # Commí®€ent
+    04 05 06
+    >>>  # Comment

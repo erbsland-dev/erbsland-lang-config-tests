@@ -1,0 +1,8 @@
+❮a: encoding ctrl end❯  # Test encoding errors, controls and premature end.
+❮b: encoding ctrl❯      # Test encoding errors, controls.
+# Erbsland Configuration Language Test File
+[main]
+❮fail: short_suffix❯
+value: 1234❮b❯5678❮b❯ ❮b❯s
+❮fail: long_suffix❯
+value: 1234❮b❯5678❮b❯ ❮b❯sec❮a❯onds

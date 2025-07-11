@@ -1,0 +1,45 @@
+# Erbsland Configuration Language Test File
+[main]
+# Test various years
+date 01: 2024-10-09       # Typical date
+date 02: 2024-01-01       # Start of a year
+date 03: 2024-12-31       # End of a year
+date 04: 2000-02-29       # Leap year, Feb 29
+date 05: 1900-12-31       # Edge case: 19th century
+date 06: 2099-01-01       # Edge case: Future year
+
+# Test different months
+date 07: 2024-02-29       # Leap year, valid Feb 29
+date 08: 2023-02-28       # Non-leap year, Feb 28
+date 09: 2022-03-31       # March with 31 days
+date 10: 2022-04-30       # April with 30 days
+date 11: 2022-11-30       # November with 30 days
+
+# Test different day boundaries
+date 12: 2024-05-01       # First of May
+date 13: 2024-06-30       # Last of June
+date 14: 2024-07-01       # First of July
+date 15: 2024-08-31       # Last of August
+
+# Historical and future dates
+date 16: 0001-01-01       # Earliest possible date in Gregorian calendar
+date 17: 9999-12-31       # Latest date supported
+
+# Test different centuries
+date 18: 1800-01-01       # Edge case: early 19th century
+date 19: 1700-01-01       # Edge case: 18th century
+date 20: 3000-01-01       # Far future
+
+# Additional leap years
+date 21: 2400-02-29       # Far future leap year
+date 22: 2020-02-29       # Recent leap year
+
+# On the next line
+date 23:
+    2024-10-09
+date 24:                  # Comment
+    2024-01-01
+date 25:
+    2024-12-31            # Comment
+date 26:                  # Comment
+    2024-09-07            # Comment

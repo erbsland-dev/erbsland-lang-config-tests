@@ -1,0 +1,30 @@
+# Erbsland Configuration Language Test File
+[main]
+integer 01: 0b0
+integer 02: 0b1
+integer 03: -0b1
+integer 04: +0b1
+integer 05: 0b0101
+integer 06: -0b0101
+integer 07: +0b0101
+integer 08: 0b1001010
+integer 09: -0b1001010
+integer 10:  0b01111111111111111111111111111111  # 32 bit maximum.
+integer 11: -0b10000000000000000000000000000000  # 32 bit minimum.
+integer 12: 0b1'1         # Makes no sense, but is valid
+integer 13: -0b1'0        # Makes no sense, but is valid
+integer 14: 0b10'01       # Makes no sense, but is valid
+integer 15: -0b01'10      # Makes no sense, but is valid
+integer 16: 0b000'0       # Makes no sense, but is valid
+integer 17: -0b111'1      # Makes no sense, but is valid
+integer 18: 0B1'0'1       # Makes no sense, but is valid
+integer 19: -0b0'1'0      # Makes no sense, but is valid
+integer 20: 0b01'10'11
+integer 21: -0b01'10'11
+integer 22:  0b01111111'11111111'11111111'11111111
+integer 23: -0b10000000'00000000'00000000'00000000
+integer 24:  0b0'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1'1  # Buffer test
+integer 25: -0b1'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0'0  # Buffer test
+integer 26: -0b0          # Makes no sense, but is valid
+integer 27: 0b00001111
+integer 28: 0B00001111

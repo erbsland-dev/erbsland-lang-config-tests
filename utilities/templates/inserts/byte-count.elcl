@@ -1,0 +1,6 @@
+❮a: encoding ctrl end❯  # Test encoding errors, controls and premature end.
+❮b: encoding ctrl❯      # Test encoding errors, controls.
+# Erbsland Configuration Language Test File
+[main]
+❮fail: simple_value❯
+value: 1234❮b❯5678❮b❯ ❮b❯ki❮a❯b

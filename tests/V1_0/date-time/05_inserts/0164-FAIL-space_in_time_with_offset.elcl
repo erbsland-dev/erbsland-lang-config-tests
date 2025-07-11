@@ -1,0 +1,3 @@
+# Erbsland Configuration Language Test File
+[main]
+time: 12:34:45+01 :00 # syntax

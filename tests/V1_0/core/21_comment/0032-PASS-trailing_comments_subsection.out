@@ -1,0 +1,7 @@
+main = IntermediateSection()
+main.subsection1 = SectionWithNames()
+main.subsection2 = SectionWithNames()
+main.subsection3 = SectionWithNames()
+main.subsection4 = SectionWithNames()
+main.subsection5 = SectionWithNames()
+main.subsection6 = SectionWithNames()

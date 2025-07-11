@@ -1,0 +1,2 @@
+main = IntermediateSection()
+main.a3 = SectionWithNames()

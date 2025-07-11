@@ -1,0 +1,5 @@
+# Erbsland Configuration Language Test File
+[main]
+value: """
+    text \í €/ with escape
+    """

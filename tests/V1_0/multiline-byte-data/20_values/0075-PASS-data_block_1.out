@@ -1,0 +1,2 @@
+byte_data_values = SectionWithNames()
+byte_data_values.value_13 = Bytes(0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef)

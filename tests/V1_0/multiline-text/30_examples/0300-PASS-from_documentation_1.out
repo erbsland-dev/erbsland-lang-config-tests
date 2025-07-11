@@ -1,0 +1,3 @@
+main = SectionWithNames()
+main.text_1 = Text("\u{201c}Hello!\u{201d} exclaimed the multi_line text,\u{a}As it flowed across the lines;\u{a}It pondered what might happen next,\u{a}And hoped to fit within the rhymes\u{2e}")
+main.text_2 = Text("    Bracket stands alone\u{a}        Indentation now looks fine\u{a}            Code is clean again")

@@ -1,0 +1,7 @@
+❮a: encoding ctrl❯      # Test encoding an control characters
+❮b: encoding ctrl end❯  # also test unexpected document end.
+# Erbsland Configuration Language Test File
+❮fail: section_list_minimal❯
+*❮b❯[❮b❯list❮b❯]
+❮fail: section_list_decorated❯
+------❮b❯*[list]❮a❯*❮a❯---❮a❯---

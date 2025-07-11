@@ -1,0 +1,29 @@
+# Erbsland Configuration Language Test File
+[main]
+integer 01: 0
+integer 02: 1
+integer 03: -1
+integer 04: +1
+integer 05: 12
+integer 06: -12
+integer 07: +12
+integer 08: 123
+integer 09: -123
+integer 10: 2147483647  # 32 bit maximum.
+integer 11: +2147483647  # 32 bit maximum.
+integer 12: -2147483648 # 32 bit minimum.
+integer 13: 1'2         # Makes no sense, but is valid
+integer 14: -1'2        # Makes no sense, but is valid
+integer 15: 12'34       # Makes no sense, but is valid
+integer 16: -12'34      # Makes no sense, but is valid
+integer 17: 123'4       # Makes no sense, but is valid
+integer 18: -123'4      # Makes no sense, but is valid
+integer 19: 1'2'3       # Makes no sense, but is valid
+integer 20: -1'2'3      # Makes no sense, but is valid
+integer 21: 123'345'678
+integer 22: -123'345'678
+integer 23: 2'147'483'647
+integer 24: -2'147'483'648
+integer 25: 2'1'4'7'4'8'3'6'4'7  # Buffer test
+integer 26: -2'1'4'7'4'8'3'6'4'7  # Buffer test
+integer 27: -0          # Makes no sense, but is valid

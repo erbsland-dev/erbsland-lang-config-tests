@@ -1,0 +1,7 @@
+main = SectionWithNames()
+main2 = SectionWithNames()
+main3 = SectionWithNames()
+main4 = SectionWithNames()
+main5 = SectionWithNames()
+main6 = SectionWithNames()
+main7 = SectionWithNames()

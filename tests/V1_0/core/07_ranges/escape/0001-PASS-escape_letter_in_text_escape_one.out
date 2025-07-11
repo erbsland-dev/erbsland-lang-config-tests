@@ -1,0 +1,2 @@
+main = SectionWithNames()
+main.text = Text("\u{5c}")

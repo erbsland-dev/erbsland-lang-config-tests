@@ -1,0 +1,7 @@
+# Erbsland Configuration Language Test File
+[main]
+text:
+    """
+    Text """ ← this is not the end
+        """ ← this is also not the end
+    """ # This is the end.

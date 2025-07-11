@@ -1,0 +1,40 @@
+# Erbsland Configuration Language Test File
+[main]
+Data 04: <<<
+    f0ba1412 0177ec42
+    >>>
+Data 05:               # Comment
+    <<<hex             # Comment
+    f0ba1412 0177ec42
+    >>>
+Data 06:
+    <<<
+    0100
+    0200
+    0300
+    FFFF
+    >>>
+Data 07:
+    <<<
+    0100
+        ec24
+    0100  00
+    >>>
+Data 08:
+    <<< #   Tag  Flag Data
+            0100  00          # First tag
+                      ec24    # Data block
+            0100  00          # Second tag
+            ffff              # End mark
+    >>>
+Data 09: <<<
+    ffec 0009
+    8420 224e
+    >>>
+Data 10: <<<
+    ffec 0009
+    8420 224e
+    >>>
+Data 11: <<<
+    ff ec00 09842022 4e
+    >>>

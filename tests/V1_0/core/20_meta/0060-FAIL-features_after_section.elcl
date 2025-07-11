@@ -1,0 +1,3 @@
+[main]
+@features: "core"
+value: 12

@@ -1,0 +1,6 @@
+❮a: encoding ctrl❯             # Test encoding an control characters
+❮b: encoding ctrl end comma❯   # a + unexpected end and ,
+# Erbsland Configuration Language Test File
+[main]
+❮fail: simple_list❯
+value: 1❮a❯,❮b❯ 2, 3 ❮a❯  , 4❮a❯

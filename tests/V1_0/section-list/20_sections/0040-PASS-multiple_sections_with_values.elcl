@@ -1,0 +1,11 @@
+# Erbsland Configuration Language Test File
+*[list]
+value 1: 123
+value 2: 123
+*[list]
+value 1: 123
+value 2: 123
+
+*[list]
+value 1: 123
+value 2: 123

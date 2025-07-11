@@ -1,0 +1,3 @@
+# Erbsland Configuration Language Test File
+[main]
+PNG Header: <50 4E47 0D0A 1A0A>        # PNG file header

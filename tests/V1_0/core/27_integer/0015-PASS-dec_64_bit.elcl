@@ -1,0 +1,10 @@
+# Erbsland Configuration Language Test File
+[main]
+integer 01: -9223372036854775808  # 64 bit minimum
+integer 02: 9223372036854775807   # 64 bit maximum
+integer 03: +9223372036854775807   # 64 bit maximum
+integer 04: -9'223'372'036'854'775'808
+integer 05: 9'223'372'036'854'775'807
+integer 06: -9'2'2'3'3'7'2'0'3'6'8'5'4'7'7'5'8'0'8  # Buffer test
+integer 07: 9'2'2'3'3'7'2'0'3'6'8'5'4'7'7'5'8'0'7   # Buffer test
+integer 08: +9'2'2'3'3'7'2'0'3'6'8'5'4'7'7'5'8'0'7   # Buffer test

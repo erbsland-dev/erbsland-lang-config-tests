@@ -1,0 +1,8 @@
+❮a: encoding ctrl end❯  # Test encoding errors, controls, premature end
+❮b: encoding ctrl end /❯  # Test encoding errors, controls, premature end and uneven backtick count
+# Erbsland Configuration Language Test File
+[main]
+❮fail: empty❯
+value: /❮a❯/
+❮fail: simple_value❯
+value: /❮b❯^❮b❯regex \❮b❯/ end❮b❯/

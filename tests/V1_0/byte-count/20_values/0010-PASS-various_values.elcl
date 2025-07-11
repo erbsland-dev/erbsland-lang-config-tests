@@ -1,0 +1,53 @@
+# Erbsland Configuration Language Test File
+[main]
+value 01: 0 kb
+value 02: -0 kb
+value 03: +0 kb
+value 04: 0kb
+value 05: -0kb
+value 06: +0kb
+value 07: 1 kb
+value 08: -1 kb
+value 09: +1 kb
+value 10: 1kb
+value 11: -1kb
+value 12: +1kb
+value 13: 1'234 kb
+value 14: -1'234 kb
+value 15: +1'234 kb
+value 16: 1'234kb
+value 17: -1'234kb
+value 18: +1'234kb
+value 19: 1 Kb
+value 20: 1 kB
+value 21: 1 KB
+value 22: 1 kib
+value 23: 1 Kib
+value 24: 1 kIb
+value 25: 1 kiB
+value 26: 1 KiB
+value 27: 1 KIB
+value 28: 12938 kb
+value 29: 29283 kib
+value 30: 92837 mb
+value 31: 19292 mib
+value 32: 19283 gb
+value 33: 38471 gib
+value 34: 94827 tb
+value 35: 19374 tib
+value 36: 1927 pb
+value 37: 3826 pib
+value 38: 1 eb
+value 39: 1 eib
+value 40: -12938 kb
+value 41: -29283 kib
+value 42: -92837 mb
+value 43: -19292 mib
+value 44: -19283 gb
+value 45: -38471 gib
+value 46: -94827 tb
+value 47: -19374 tib
+value 48: -192 pb
+value 49: -382 pib
+value 50: -1 eb
+value 51: -1 eib

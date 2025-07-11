@@ -1,0 +1,7 @@
+# Erbsland Configuration Language Test File
+[byte_data_values]
+value 28: <<< # Comment
+    # Comment
+    01 # Comment
+    02 # Comment
+    >>> # Comment

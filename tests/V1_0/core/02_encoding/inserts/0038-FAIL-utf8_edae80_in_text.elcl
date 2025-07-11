@@ -1,0 +1,3 @@
+# Erbsland Configuration Language Test File
+[main]
+value: "Text ðŸ˜€ â‡’ Ã„ \t\n\uí®€00c4\u{c4} Text"

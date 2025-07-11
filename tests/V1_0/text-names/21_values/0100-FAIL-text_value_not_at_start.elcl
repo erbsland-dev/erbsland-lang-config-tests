@@ -1,0 +1,5 @@
+# Erbsland Configuration Language Test File
+[main.text]
+  "text 1": 123
+  "text 2": 123
+  "text 3": 123

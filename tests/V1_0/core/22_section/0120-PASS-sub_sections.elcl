@@ -1,0 +1,7 @@
+# Erbsland Configuration Language Test File
+[main.subsection_01]
+[main.subsection_02]
+[main.subsection_03]
+[main.subsection_01.sub.sub.sub.sub]
+[main.subsection_01.sub.sub_02.sub_02]
+[main.subsection_02.sub.sub.sub.sub.sub.sub.sub.sub]  # Maximum: 10 subsection names.

@@ -1,0 +1,10 @@
+# Erbsland Configuration Language Test File
+[main]
+EXIF Data:
+    <<<                                # - Little endian values
+    45786966 0000                      # EXIF identifier + padding (32-bit)
+    49492A00                           # TIFF header (32-bit)
+    08000000                           # Offset to IFD0 (32-bit)
+    0E00                               # Tag count (16-bit)
+    0001                               # Tag number (16-bit)
+    >>>

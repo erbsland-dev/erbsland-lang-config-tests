@@ -1,0 +1,2 @@
+main = SectionWithNames()
+main.q_name = Integer(12)

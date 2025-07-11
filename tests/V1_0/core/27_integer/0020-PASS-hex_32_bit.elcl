@@ -1,0 +1,32 @@
+# Erbsland Configuration Language Test File
+[main]
+integer 01: 0x0
+integer 02: 0x1
+integer 03: -0x1
+integer 04: +0x1
+integer 05: 0xa
+integer 06: -0xa
+integer 07: +0xa
+integer 08: 0x0000009f    # Zero prefix is allowed
+integer 09: -0x0000009f   # Zero prefix is allowed
+integer 10: 0x7fffffff  # 32 bit maximum.
+integer 11: -0x80000000 # 32 bit minimum.
+integer 12: 0x1'a         # Makes no sense, but is valid
+integer 13: -0x1'a        # Makes no sense, but is valid
+integer 14: 0x1f'e4       # Makes no sense, but is valid
+integer 15: -0x1f'e4      # Makes no sense, but is valid
+integer 16: 0x1a3'c       # Makes no sense, but is valid
+integer 17: -0x1a3'c      # Makes no sense, but is valid
+integer 18: 0x1'2'd       # Makes no sense, but is valid
+integer 19: -0x1'2'd      # Makes no sense, but is valid
+integer 20: 0xab'cd'02
+integer 21: -0xab'cd'02
+integer 22: 0x7fff'ffff
+integer 23: -0x8000'0000
+integer 24: 0x7'f'f'f'f'f'f'f  # Buffer test
+integer 25: -0x8'0'0'0'0'0'0'0  # Buffer test
+integer 26: -0x0          # Makes no sense, but is valid
+integer 27: 0x0abcdef
+integer 28: 0X0ABCDEF
+integer 29: 0X0aBcDeF
+integer 30: 0x0AbCdEf

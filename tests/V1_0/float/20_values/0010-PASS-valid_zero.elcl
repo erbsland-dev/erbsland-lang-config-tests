@@ -1,0 +1,27 @@
+# Erbsland Configuration Language Test File
+[main]
+float 01: 0.
+float 02: .0
+float 03: 0.0
+float 04: -0.
+float 05: -.0
+float 06: -0.0
+float 07: +0.
+float 08: +.0
+float 09: +0.0
+float 10: 0e+6
+float 11: 0e-6
+float 12: .0e+6
+float 13: .0e-6
+float 14: 0.e+6
+float 15: 0.e-6
+float 16: 0.0e+6
+float 17: 0.0e-6
+float 18: 0E+6
+float 19: 0E-6
+float 20: .0E+6
+float 21: .0E-6
+float 22: 0.E+6
+float 23: 0.E-6
+float 24: 0.0E+6
+float 25: 0.0E-6

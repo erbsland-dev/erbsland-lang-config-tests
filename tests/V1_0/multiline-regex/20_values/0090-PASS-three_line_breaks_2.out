@@ -1,0 +1,2 @@
+multi_line_regex = SectionWithNames()
+multi_line_regex.value_16 = RegEx("\u{a}\u{a}")

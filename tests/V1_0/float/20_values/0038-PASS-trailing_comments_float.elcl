@@ -1,0 +1,94 @@
+# Erbsland Configuration Language Test File
+[main1]
+float 1: 0.1# Comment
+float 2: 0.1 # Comment
+float 3: 0.1	# Comment
+float 4: .1# Comment
+float 5: .1 # Comment
+float 6: .1	# Comment
+float 7: 1.# Comment
+float 8: 1. # Comment
+float 9: 1.	# Comment
+float 10: 1.# Comment
+float 11: 1. # Comment
+float 12: 1.	# Comment
+float 13: 1e+7# Comment
+float 14: 1e+7 # Comment
+float 15: 1e+7	# Comment
+float 16: 1e-7# Comment
+float 17: 1e-7 # Comment
+float 18: 1e-7	# Comment
+[main2]
+float 1:# Comment
+    0.1# Comment
+float 2: # Comment
+    0.1 # Comment
+float 3:	# Comment
+    0.1	# Comment
+float 4:# Comment
+    .1# Comment
+float 5: # Comment
+    .1 # Comment
+float 6:	# Comment
+    .1	# Comment
+float 7:# Comment
+    1.# Comment
+float 8: # Comment
+    1. # Comment
+float 9:	# Comment
+    1.	# Comment
+float 10:# Comment
+    1.# Comment
+float 11: # Comment
+    1. # Comment
+float 12:	# Comment
+    1.	# Comment
+float 13:# Comment
+    1e+7# Comment
+float 14: # Comment
+    1e+7 # Comment
+float 15:	# Comment
+    1e+7	# Comment
+float 16:# Comment
+    1e-7# Comment
+float 17: # Comment
+    1e-7 # Comment
+float 18:	# Comment
+    1e-7	# Comment
+[main3]
+float 1:
+    0.1# Comment
+float 2:
+    0.1 # Comment
+float 3:
+    0.1	# Comment
+float 4:
+    .1# Comment
+float 5:
+    .1 # Comment
+float 6:
+    .1	# Comment
+float 7:
+    1.# Comment
+float 8:
+    1. # Comment
+float 9:
+    1.	# Comment
+float 10:
+    1.# Comment
+float 11:
+    1. # Comment
+float 12:
+    1.	# Comment
+float 13:
+    1e+7# Comment
+float 14:
+    1e+7 # Comment
+float 15:
+    1e+7	# Comment
+float 16:
+    1e-7# Comment
+float 17:
+    1e-7 # Comment
+float 18:
+    1e-7	# Comment

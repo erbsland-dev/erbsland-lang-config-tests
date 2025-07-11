@@ -1,0 +1,3 @@
+# Mark all test and template files in the tests and utility directory as binary, as they
+# may contain intentionally invalid UTF-8 encoding and special newline and carriage returns.
+**/*.elcl binary

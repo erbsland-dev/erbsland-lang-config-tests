@@ -1,0 +1,2 @@
+main = SectionWithNames()
+main.text = Text("escape\u{a}\u{d}\u{5c}\u{9}text")

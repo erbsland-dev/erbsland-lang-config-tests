@@ -1,0 +1,2 @@
+main = SectionWithNames()
+main.a7 = Integer(12)

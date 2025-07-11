@@ -1,0 +1,6 @@
+# Erbsland Configuration Language Test File
+[main.text]
+[main.text."text 1"]
+[main.text."text 2"]
+[main.text."text 3"]
+[main.text.name]  # Must fail, text and names must not be mixed.

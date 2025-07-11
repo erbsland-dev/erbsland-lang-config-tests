@@ -1,0 +1,4 @@
+# Erbsland Configuration Language Test File
+@features: "core"
+[main]
+value: 12

@@ -1,0 +1,2 @@
+main = IntermediateSection()
+main.z_name = SectionWithNames()

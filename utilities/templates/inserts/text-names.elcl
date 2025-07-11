@@ -1,0 +1,17 @@
+❮a: encoding ctrl 0x22❯  # Test unexpected stop and quote problem
+❮b: encoding ctrl 0x22 del . a 1 \❯  # also test missing end mark and char before value separator
+# Erbsland Configuration Language Test File
+❮fail: section_compact❯
+[main."❮a❯Te❮a❯xt❮a❯"❮b❯]
+value: 12
+❮fail: section_with_spacing❯
+[main. "❮a❯Text"❮b❯ ]
+value: 12
+❮fail: value_compact❯
+[main]
+"❮a❯Te❮a❯xt❮a❯"❮b❯: 12
+# comment to make sure its a syntax error
+❮fail: value_with_spacing❯
+[main]
+"Text"❮b❯         : 12
+# comment to make sure its a syntax error

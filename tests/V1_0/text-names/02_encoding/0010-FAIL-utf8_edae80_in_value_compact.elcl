@@ -1,0 +1,4 @@
+# Erbsland Configuration Language Test File
+[main]
+"Text"í®€: 12
+# comment to make sure its a syntax error

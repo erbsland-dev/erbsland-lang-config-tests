@@ -1,0 +1,14 @@
+# Erbsland Configuration Language Test File
+[main]
+text 1: """
+    “Hello!” exclaimed the multi_line text,
+    As it flowed across the lines;
+    It pondered what might happen next,
+    And hoped to fit within the rhymes.
+    """
+text 2:
+    """
+        Bracket stands alone
+            Indentation now looks fine
+                Code is clean again
+    """

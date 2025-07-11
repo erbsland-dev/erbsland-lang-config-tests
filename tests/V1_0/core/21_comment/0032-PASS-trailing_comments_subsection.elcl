@@ -1,0 +1,9 @@
+# Erbsland Configuration Language Test File
+[main.subsection1]# Comment
+[main.subsection2] # Comment
+[main.subsection3]	#Comment
+[main.subsection4] 	#Comment
+[main.subsection5]	 #Comment
+    # Comment
+[main.subsection6]
+    # Comment

@@ -1,0 +1,34 @@
+# Erbsland Configuration Language Test File
+[main]
+boolean 01: true
+boolean 02: false
+boolean 03: yes
+boolean 04: no
+boolean 05: on
+boolean 06: off
+boolean 07: enabled
+boolean 08: disabled
+boolean 11: True
+boolean 12: False
+boolean 13: Yes
+boolean 14: No
+boolean 15: On
+boolean 16: Off
+boolean 17: Enabled
+boolean 18: Disabled
+boolean 21: TRUE
+boolean 22: FALSE
+boolean 23: YES
+boolean 24: NO
+boolean 25: ON
+boolean 26: OFF
+boolean 27: ENABLED
+boolean 28: DISABLED
+boolean 31: tRuE
+boolean 32: fAlSe
+boolean 33: yEs
+boolean 34: nO
+boolean 35: oN
+boolean 36: oFf
+boolean 37: eNaBlEd
+boolean 38: dIsAbLeD

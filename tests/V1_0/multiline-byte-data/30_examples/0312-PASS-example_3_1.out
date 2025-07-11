@@ -1,0 +1,2 @@
+main = SectionWithNames()
+main.data = Bytes(010002000300ffff)

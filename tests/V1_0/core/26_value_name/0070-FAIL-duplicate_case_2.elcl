@@ -1,0 +1,4 @@
+# Erbsland Configuration Language Test File
+[main]
+a_section_name: 123
+a_section_namE: 123

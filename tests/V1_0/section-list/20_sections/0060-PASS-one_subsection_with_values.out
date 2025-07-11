@@ -1,0 +1,6 @@
+one = IntermediateSection()
+one.two = IntermediateSection()
+one.two.three = SectionList()
+one.two.three[0] = SectionWithNames()
+one.two.three[0].value_1 = Integer(123)
+one.two.three[0].value_2 = Integer(123)

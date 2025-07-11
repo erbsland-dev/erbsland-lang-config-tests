@@ -1,0 +1,65 @@
+# Erbsland Configuration Language Test File
+*[one.two.three]
+value: 1
+*[one.two.three]*
+value: 2
+-*[one.two.three]
+value: 3
+-*[one.two.three]-
+value: 4
+-*[one.two.three]*-
+value: 5
+--------------------------------------------------------------*[one.two.three]
+value: 6
+-------------------------*[one.two.three]-------------------------------------
+value: 7
+-------------------------*[one.two.three]*------------------------------------
+value: 8
+*[   one . two . three   ]
+value: 9
+*[   one . two . three   ]*
+value: 10
+-*[   one . two . three   ]
+value: 11
+-*[   one . two . three   ]-
+value: 12
+-*[   one . two . three   ]*-
+value: 13
+----------------------------------------------------*[   one . two . three   ]
+value: 14
+----------------------*[   one . two . three   ]------------------------------
+value: 15
+----------------------*[   one . two . three   ]*-----------------------------
+value: 16
+*[one.two.three]# Comment
+value: 17
+*[one.two.three]*# Comment
+value: 18
+-*[one.two.three]# Comment
+value: 19
+-*[one.two.three]-# Comment
+value: 20
+-*[one.two.three]*-# Comment
+value: 21
+----------------------------------------------------*[one.two.three]# Comment
+value: 22
+------------------------------*[one.two.three]----------------------# Comment
+value: 23
+------------------------------*[one.two.three]*---------------------# Comment
+value: 24
+*[one.two.three] # Comment
+value: 25
+*[one.two.three]* # Comment
+value: 26
+-*[one.two.three] # Comment
+value: 27
+-*[one.two.three]- # Comment
+value: 28
+-*[one.two.three]*- # Comment
+value: 29
+----------------------------------------------------*[one.two.three] # Comment
+value: 30
+--------------------*[one.two.three]-------------------------------- # Comment
+value: 31
+--------------------*[one.two.three]*------------------------------- # Comment
+value: 32

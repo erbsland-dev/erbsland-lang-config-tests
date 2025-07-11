@@ -1,0 +1,3 @@
+main = SectionWithNames(size=1)
+{{content}} = Integer(123)
+

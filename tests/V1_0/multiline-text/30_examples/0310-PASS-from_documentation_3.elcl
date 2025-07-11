@@ -1,0 +1,8 @@
+# Erbsland Configuration Language Test File
+[main]
+text:
+    """
+    First Line
+    Second Line
+    Third Line
+    """

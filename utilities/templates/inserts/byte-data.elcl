@@ -1,0 +1,7 @@
+❮a: encoding ctrl end 0 a❯  # Test encoding an control characters
+# Erbsland Configuration Language Test File
+[main]
+❮fail: empty❯
+value: <❮a❯>
+❮fail: simple_value❯
+value: <❮a❯0❮a❯10203❮a❯ 04  05 ❮a❯  06❮a❯>

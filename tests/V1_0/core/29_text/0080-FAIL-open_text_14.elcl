@@ -1,0 +1,5 @@
+# Erbsland Configuration Language Test File
+[main]
+text1: "abc
+    # Comment
+text2: "abc"

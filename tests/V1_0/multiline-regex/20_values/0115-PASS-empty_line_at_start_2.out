@@ -1,0 +1,2 @@
+multi_line_regex = SectionWithNames()
+multi_line_regex.value_21 = RegEx("\u{a}One Line")

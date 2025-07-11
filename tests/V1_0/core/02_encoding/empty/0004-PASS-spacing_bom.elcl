@@ -1,0 +1,20 @@
+﻿# Erbsland Configuration Language Test File
+
+
+# Comment with Unicode ⇒ 😄 ⇐
+    # This is a valid document, that only consists
+    #### of spacing and comments, and has absolutely no content.								🥶
+
+	#	More	Comments
+	# ````````````` #
+                                                  #
+
+
+
+#######################################################################################################################
+
+
+
+
+  	  	# The End
+

@@ -1,0 +1,4 @@
+list = SectionList()
+list[0] = SectionWithNames()
+list[1] = SectionWithNames()
+list[2] = SectionWithNames()

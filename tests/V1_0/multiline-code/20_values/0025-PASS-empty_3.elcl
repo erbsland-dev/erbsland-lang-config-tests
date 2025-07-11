@@ -1,0 +1,4 @@
+# Erbsland Configuration Language Test File
+[multi_line_code]
+value 03: ```
+    ``` # Comment 3

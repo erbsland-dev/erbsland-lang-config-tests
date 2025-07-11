@@ -1,0 +1,2 @@
+main = SectionWithNames(size=1)
+{{content}}_name = Integer(123)

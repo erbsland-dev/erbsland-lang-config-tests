@@ -1,0 +1,76 @@
+❮a: encoding ctrl❯      # Test encoding an control characters
+❮b: encoding ctrl end❯  # also test unexpected document end.
+❮fail: minimal_document❯
+❮a❯#❮a❯ Erbsland Configuration ❮a❯Language Test File❮a❯
+[❮b❯ma❮b❯in❮b❯]❮a❯
+❮a❯val❮b❯ue❮b❯:❮b❯ ❮b❯12
+❮fail: document_empty_start❯
+
+❮a❯# Erbsland Configuration Language Test File
+[main]
+value: 12❮a❯
+❮fail: document_spaces❯
+# Erbsland Configuration Language Test File
+        ❮a❯
+[  ❮b❯main❮b❯  ❮b❯]    ❮a❯#❮a❯ Comment
+value        ❮b❯: 12
+❮fail: document_tabs❯
+# Erbsland Configuration Language Test File
+				❮a❯
+[	❮b❯main❮b❯	]
+value: 12
+❮fail: subsection❯
+# Erbsland Configuration Language Test File
+[main.❮b❯sub❮b❯section❮b❯]
+value: 12
+❮fail: subsection_spaces❯
+# Erbsland Configuration Language Test File
+[main.    ❮b❯subsection    ❮b❯]
+value: 12
+❮fail: value_next_line❯
+# Erbsland Configuration Language Test File
+[main]
+value:
+❮b❯    ❮b❯12
+❮fail: value_next_line_comment❯
+# Erbsland Configuration Language Test File
+[main]
+value: # Comment
+❮b❯    ❮b❯12
+❮fail: text❯
+# Erbsland Configuration Language Test File
+[main]
+value: "❮b❯Text 😀 ❮b❯⇒ Ä \❮b❯t\n\u❮b❯00❮b❯c4\u{❮b❯c❮b❯4} Text❮b❯"
+❮fail: boolean❯
+# Erbsland Configuration Language Test File
+[main]
+value: tr❮b❯ue❮a❯
+❮fail: integer_decimal❯
+# Erbsland Configuration Language Test File
+[main]
+value: 1234❮a❯5678❮a❯
+❮fail: integer_negative_decimal❯
+# Erbsland Configuration Language Test File
+[main]
+value: -❮b❯1234'❮b❯5678
+❮fail: integer_hex❯
+# Erbsland Configuration Language Test File
+[main]
+value: 0x❮b❯12ab❮a❯56cd❮a❯
+❮fail: integer_negative_hex❯
+# Erbsland Configuration Language Test File
+[main]
+value: -❮b❯0x12ab'❮b❯56cd
+❮fail: integer_bin❯
+# Erbsland Configuration Language Test File
+[main]
+value: 0b❮b❯0011❮a❯0101❮a❯
+❮fail: integer_negative_bin❯
+# Erbsland Configuration Language Test File
+[main]
+value: -❮b❯0b0011'❮b❯0101
+❮fail: meta❯
+# Erbsland Configuration Language Test File
+@❮b❯vers❮b❯ion❮b❯:❮b❯ "❮b❯1.0❮b❯"❮a❯
+[main]
+value: 12

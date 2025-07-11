@@ -1,0 +1,17 @@
+# Erbsland Configuration Language Test File
+[main]
+boolean 1: true# Comment
+boolean 2: false # Comment
+boolean 3: yes	# Comment
+boolean 4:# Comment
+    true# Comment
+boolean 5: # Comment
+    false # Comment
+boolean 6:	# Comment
+    yes	# Comment
+boolean 7:
+    true# Comment
+boolean 8:
+    false # Comment
+boolean 9:
+    yes	# Comment

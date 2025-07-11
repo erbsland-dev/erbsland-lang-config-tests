@@ -1,0 +1,2 @@
+main = SectionWithNames()
+main.text = Text("Text \u{22}\u{22}\u{22} \u{2190} this is not the end\u{a}    \u{22}\u{22}\u{22} \u{2190} this is also not the end")

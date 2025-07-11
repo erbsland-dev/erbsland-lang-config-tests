@@ -1,0 +1,8 @@
+main = SectionWithNames()
+main.text_1 = Text("# Comment")
+main.text_2 = Text("\u{22}# Comment")
+main.text_3 = Text("# Comment")
+main.text_4 = Text("\u{9}# Comment")
+main.text_5 = Text("  \u{22}\u{22}          # Comment   ")
+main.text_6 = Text("   \u{22}\u{22}          # Comment   ")
+main.text_7 = Text("# Comment                       ")

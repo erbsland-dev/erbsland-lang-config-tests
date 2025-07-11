@@ -1,0 +1,15 @@
+[main]
+name1:1 # Comment
+name2 :1 # Comment
+name3 : 1 # Comment
+name4	:1 # Comment
+name5	:	1 # Comment
+name6 	: 	1 # Comment
+name7	 :	 1 # Comment
+name8=1 # Comment
+name9 =1 # Comment
+name10 = 1 # Comment
+name11	=1 # Comment
+name12	=	1 # Comment
+name13 	= 	1 # Comment
+name14	 =	 1 # Comment

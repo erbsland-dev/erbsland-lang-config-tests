@@ -1,0 +1,7 @@
+# Erbsland Configuration Language Test File
+[main.text]
+"text" = 123
+"text\"\t\r\n\u2756\u{2192}" = 123
+"😄" = 123
+"  text  " = 123
+"	text	" = 123

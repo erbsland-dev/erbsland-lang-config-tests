@@ -1,0 +1,19 @@
+❮a: encoding ctrl space . a _❯  # Middle
+❮b: encoding ctrl . a _❯        # End
+❮c: 0x27❯                       # Separator
+❮d: encoding ctrl space a _❯    # No dot
+❮e: 0❯                          # Add zero for too many digits test
+# Erbsland Configuration Language Test File
+[main]
+❮fail: zero_fraction❯
+value: 0❮a❯.❮a❯1❮a❯2❮a❯3❮b❯
+❮fail: exponent❯
+value: 0.123❮a❯e❮a❯+❮a❯0❮a❯❮c❯8❮b❯
+❮fail: only_fraction❯
+value: .❮a❯123
+❮fail: integer❯
+value: 123❮a❯45.❮b❯
+❮fail: only_exponent❯
+value: 123❮d❯e❮a❯-6
+❮fail: separator❯
+value: ❮c❯1'❮c❯234❮c❯.❮c❯000'❮c❯123❮c❯ # syntax

@@ -1,0 +1,8 @@
+main = IntermediateSection()
+main.text = SectionWithTexts()
+main.text."text1" = Integer(123)
+main.text."text2" = Integer(123)
+main.text."text3" = SectionWithNames()
+main.text."text3".value = Integer(123)
+main.text."text4" = SectionWithNames()
+main.text."text4".value = Integer(123)

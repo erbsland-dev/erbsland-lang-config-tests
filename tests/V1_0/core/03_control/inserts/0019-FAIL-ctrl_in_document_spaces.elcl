@@ -1,0 +1,4 @@
+# Erbsland Configuration Language Test File
+        
+[  main  ]    # Comment
+value        : 12

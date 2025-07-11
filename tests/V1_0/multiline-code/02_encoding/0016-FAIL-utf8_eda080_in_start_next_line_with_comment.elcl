@@ -1,0 +1,7 @@
+# Erbsland Configuration Language Test File
+[main]
+value:   # Comment
+    ```  í €# Comment
+    first line
+    second line
+    ```

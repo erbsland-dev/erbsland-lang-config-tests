@@ -1,0 +1,5 @@
+# Erbsland Configuration Language Test File
+[main.one.two]
+[main.one]  # ok
+[main] # ok
+[main.one.two] # fail

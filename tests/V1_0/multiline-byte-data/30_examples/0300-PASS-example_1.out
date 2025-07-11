@@ -1,0 +1,3 @@
+byte_data_values = SectionWithNames()
+byte_data_values.value_d = Bytes(01b203c405a60728390a1b0c)
+byte_data_values.value_e = Bytes(01b203c405a60728390a1b0c)

@@ -1,0 +1,11 @@
+# Erbsland Configuration Language Test File
+[main]
+[.sub]
+[ .sub . sub]
+[. sub_2]
+[another]
+[  . sub ]
+[.sub . sub ]
+[.sub_2 ]
+[main. sub_3]
+[.sub.sub.sub]

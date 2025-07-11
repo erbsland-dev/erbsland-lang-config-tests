@@ -1,0 +1,7 @@
+# Erbsland Configuration Language Test File
+[multi_line_text]
+value 38: """
+    First Line
+    Second Line
+    Third Line
+    """

@@ -1,0 +1,6 @@
+# Erbsland Configuration Language Test File
+[main]
+value: <<<
+    010203
+    04 05 06
+    

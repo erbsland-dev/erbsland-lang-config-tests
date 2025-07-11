@@ -1,0 +1,10 @@
+# Erbsland Configuration Language Test File
+[main]
+text 1: """
+    Content
+    """
+text 2:
+    """
+    Content
+    """
+

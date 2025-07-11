@@ -1,0 +1,44 @@
+❮a: encoding ctrl❯      # Test encoding an control characters
+❮b: encoding ctrl end❯  # also test unexpected document end.
+❮c: itab idel❯          # Test indentation pattern errors
+❮d: ispace itab❯        # Test indentation pattern errors
+❮e: 0 F❯                # Test uneven byte pairs
+# Erbsland Configuration Language Test File
+[main]
+❮fail: start_on_line❯
+value: <<<❮b❯
+❮b❯    ❮b❯010203❮b❯
+❮b❯    ❮b❯04 05 06
+❮b❯    ❮b❯>>>❮a❯
+❮fail: start_next_line❯
+value:
+❮b❯    ❮b❯<<<
+    010203
+    04 05 06
+    >>>
+❮fail: start_on_line_with_comment❯
+value: <<<  ❮b❯# Comm❮b❯ent
+    010203 ❮b❯# Comm❮b❯ent
+    04 05 06
+    >>>  ❮a❯# Com❮a❯ment
+❮fail: start_next_line_with_comment❯
+value:   # Comment
+    <<<  ❮b❯# Com❮b❯ment
+    010203
+    04 05 06
+    >>>
+❮fail: indentation_same_line❯
+value: <<<
+❮d❯    010203
+  ❮c❯  04 05 06
+  ❮c❯  >>>
+❮fail: indentation_next_line❯
+value:
+❮d❯    <<<
+  ❮c❯  010203
+  ❮c❯  04 05 06
+  ❮c❯  >>>
+❮fail: byte_digit_pairs❯
+value: <<<
+    0❮e❯1❮e❯020304 05 06  07   08 ❮e❯  09❮e❯
+    >>>

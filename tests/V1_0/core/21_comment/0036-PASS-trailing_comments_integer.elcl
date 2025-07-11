@@ -1,0 +1,47 @@
+# Erbsland Configuration Language Test File
+[main]
+int 1: 1# Comment
+int 2: 1 # Comment
+int 3: 3	# Comment
+int 4:# Comment
+    1# Comment
+int 5: # Comment
+    2 # Comment
+int 6:	# Comment
+    3	# Comment
+int 7:
+    1# Comment
+int 8:
+    2 # Comment
+int 9:
+    3	# Comment
+hex 1: 0x0# Comment
+hex 2: 0x1 # Comment
+hex 3: 0x2	# Comment
+hex 4:# Comment
+    0x0# Comment
+hex 5: # Comment
+    0x1 # Comment
+hex 6:	# Comment
+    0x2	# Comment
+hex 7:
+    0x0# Comment
+hex 8:
+    0x1 # Comment
+hex 9:
+    0x2	# Comment
+bin 1: 0b1010# Comment
+bin 2: 0b0101 # Comment
+bin 3: 0b0101	# Comment
+bin 4:# Comment
+    0b1010# Comment
+bin 5: # Comment
+    0b0101 # Comment
+bin 6:	# Comment
+    0b0101	# Comment
+bin 7:
+    0b1010# Comment
+bin 8:
+    0b0101 # Comment
+bin 9:
+    0b0101	# Comment

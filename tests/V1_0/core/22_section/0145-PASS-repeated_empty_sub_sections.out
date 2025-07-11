@@ -1,0 +1,5 @@
+main = SectionWithNames()
+main.one = SectionWithNames()
+main.one.two = SectionWithNames()
+main.one.two.three = SectionWithNames()
+main.one.two.three.four = SectionWithNames()

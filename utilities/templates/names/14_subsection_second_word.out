@@ -1,0 +1,2 @@
+main = SectionWithNames(size=0)
+main.word_{{content}}name = SectionWithNames(size=0)

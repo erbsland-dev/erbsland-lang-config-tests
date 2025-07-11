@@ -1,0 +1,31 @@
+❮a: encoding ctrl del space z t + - . : 0 1 / _❯  # For middle parts
+❮b: encoding ctrl space z t + - . : / _❯          # Without delete, in fractions.
+❮c: encoding ctrl t + - . : / _❯                  # At the end.
+# Erbsland Configuration Language Test File
+[main]
+❮fail: short_time❯
+time: 12:34❮c❯ # syntax
+❮fail: time❯
+time: 1❮a❯2❮a❯:❮a❯3❮a❯4❮a❯:❮a❯4❮a❯5❮c❯ # syntax
+❮fail: time_with_fraction❯
+time: 12:34:45.❮a❯12345❮b❯6789❮c❯ # syntax
+❮fail: time_with_t❯
+time: t❮b❯12:34:45❮c❯ # syntax
+❮fail: time_with_z❯
+time: 12:34:45z❮c❯ # syntax
+❮fail: time_with_offset❯
+time: 12:34:45+❮a❯0❮a❯1❮a❯:❮a❯0❮a❯0❮c❯ # syntax
+❮fail: date❯
+date: 20❮a❯24❮a❯-❮a❯0❮a❯9❮a❯-❮a❯1❮a❯0❮c❯ # syntax
+❮fail: date_time❯
+date_time: 20❮a❯24❮a❯-❮a❯1❮a❯0❮a❯-❮a❯0❮a❯9❮a❯ ❮a❯1❮a❯7❮a❯:❮a❯3❮a❯7❮a❯:❮a❯1❮a❯4❮c❯ # syntax
+❮fail: date_time_with_fractions❯
+date_time: 2024-10-09 17:37:14.❮a❯12❮b❯3456789❮c❯ # syntax
+❮fail: date_short_time❯
+date_time: 2024-10-09 17:37❮c❯ # syntax
+❮fail: date_time_with_t❯
+date_time: 2024-10-09t❮a❯17:37:14 # syntax
+❮fail: date_time_with_z❯
+date_time: 2024-10-09 17:37:14z❮c❯ # syntax
+❮fail: date_time_with_offset❯
+date_time: 2024-10-09 17:37:14+❮a❯0❮a❯1❮a❯:❮a❯0❮a❯0❮c❯ # syntax

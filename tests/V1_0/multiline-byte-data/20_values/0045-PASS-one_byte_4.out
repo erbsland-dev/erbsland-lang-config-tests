@@ -1,0 +1,2 @@
+byte_data_values = SectionWithNames()
+byte_data_values.value_07 = Bytes(23)

@@ -1,0 +1,2 @@
+main = SectionWithNames()
+main.exif_data = Bytes(45786966000049492a00080000000e000001)

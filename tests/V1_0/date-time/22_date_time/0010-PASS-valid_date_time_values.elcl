@@ -1,0 +1,57 @@
+# Erbsland Configuration Language Test File
+[main]
+
+# Standard combined date and time values
+datetime 01: 2024-10-09T17:37:14             # Standard date and time
+datetime 02: 2024-01-01 00:00:00             # Midnight (start of year)
+datetime 03: 2024-12-31T23:59:59             # End of the year
+datetime 04: 2000-02-29 12:00:00             # Leap year, Feb 29, noon
+datetime 05: 2024-07-04t13:00:00             # Date with time in 24-hour format
+datetime 06: 2024-10-09 17:37:14.123         # Date and time with milliseconds
+datetime 07: 2024-10-09t17:37:14.123456789   # Date and time with nanoseconds
+
+# Combined date and time with time zone offsets
+datetime 08: 2024-10-09 17:37:14Z            # UTC time (Z suffix)
+datetime 09: 2024-10-09 17:37:14+02:00       # Positive offset from UTC
+datetime 10: 2024-10-09 17:37:14-05:00       # Negative offset from UTC
+datetime 11: 2024-10-09 17:37:14.123+05:30   # Milliseconds with positive offset
+datetime 12: 2024-10-09 17:37:14.123-08:00   # Milliseconds with negative offset
+datetime 13: 2024-10-09 17:37:14.123456789+00:00 # Nanoseconds with UTC offset +00:00
+
+# Edge cases for date and time boundaries
+datetime 14: 2024-12-31T23:59:59.999999999Z  # Maximum possible date/time with nanoseconds and 'Z'
+datetime 15: 2024-01-01T00:00:00.000000000Z  # Minimum possible date/time with nanoseconds and 'Z'
+datetime 16: 0001-01-01T00:00:00             # Earliest date in Gregorian calendar
+datetime 17: 9999-12-31T23:59:59             # Latest date supported in many systems
+
+# Handling leap years and edge dates
+datetime 18: 2400-02-29t00:00:00             # Far future leap year
+datetime 19: 2023-02-28t23:59:59             # Non-leap year, last day of February
+datetime 20: 2020-02-29t23:59:59             # Leap year, last second of Feb 29
+
+# Handling different date separators
+datetime 21: 2024-10-09t17:37:14             # Lowercase 't' as separator
+datetime 22: 2024-10-09T17:37:14+00:00       # Date with zero offset
+datetime 23: 2024-10-09T17:37:14-00:00       # Date with negative zero offset
+
+# Combined date and time with leading/trailing spaces
+datetime 24:  2024-10-09T17:37:14            # Leading space
+datetime 25: 2024-10-09T17:37:14  # Trailing space
+
+# Multi-line handling of combined date and time
+datetime 26: # Next line
+    2024-10-09T17:37:14                     # Date and time on next line
+datetime 27: # Next line with fraction
+    2024-10-09T17:37:14.123                 # Date and time with milliseconds on next line
+
+# Edge cases for hours, minutes, and seconds within the combined date and time
+datetime 28: 2024-10-09 00:00:00             # Midnight (start of day)
+datetime 29: 2024-10-09 23:59:59             # One second before midnight
+datetime 30: 2024-10-09 10:59:59.999999999   # Maximum precision before an hour change
+datetime 31: 2024-10-09 23:59:59.999999999Z  # UTC time, one second before midnight with maximum nanoseconds
+
+# Date and time with fractional seconds and time zone offsets
+datetime 32: 2024-10-09T17:37:14.999999999+01:00  # Maximum nanosecond precision with offset
+datetime 33: 2024-10-09T17:37:14.123456+02:00     # Six-digit fractional seconds with positive offset
+datetime 34: 2024-10-09t17:37:14.123+05:30        # Milliseconds with time zone offset +05:30
+datetime 35: 2024-10-09 17:37:14.123-01:00        # Milliseconds with negative offset -01:00

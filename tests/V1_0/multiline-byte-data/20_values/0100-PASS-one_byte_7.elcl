@@ -1,0 +1,5 @@
+# Erbsland Configuration Language Test File
+[byte_data_values]
+value 18: <<<hex
+    af
+    >>>

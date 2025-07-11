@@ -1,0 +1,18 @@
+# Erbsland Configuration Language Test File
+[main]
+float 01: nan
+float 02: inf
+float 03: -inf
+float 04: +inf
+float 05: NAN
+float 06: INF
+float 07: -INF
+float 08: +INF
+float 09: Nan
+float 10: Inf
+float 11: -Inf
+float 12: +Inf
+float 13: NaN
+float 14: InF
+float 15: -InF
+float 16: +InF

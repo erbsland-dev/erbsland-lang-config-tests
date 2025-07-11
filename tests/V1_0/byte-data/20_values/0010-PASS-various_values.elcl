@@ -1,0 +1,28 @@
+# Erbsland Configuration Language Test File
+[byte_data_values]
+value 01: <>
+value 02: < >
+value 03: <	>
+value 04: <01>
+value 05: <af>
+value 06: <AF>
+value 07: < 23 >
+value 08: <	45	>
+value 09: <67 89>
+value 10: < ab cd >
+value 11: <	ef	AB	>
+value 12: <    	 CD    	   EF   	  >
+value 13: <0123 4567 89ab cdef 0123 4567 89ab cdef 0123 4567 89ab cdef 0123 4567 89ab cdef 0123 4567 89ab cdef>
+value 14: <hex:>
+value 15: <hex: >
+value 16: <hex:	>
+value 17: <hex:01>
+value 18: <hex:af>
+value 19: <hex:AF>
+value 20: <hex: 23 >
+value 21: <hex:	45	>
+value 22: <hex:67 89>
+value 23: <hex: ab cd >
+value 24: <hex:	ef	AB	>
+value 25: <hex:    	 CD    	   EF   	  >
+value 26: <hex:0123 4567 89ab cdef 0123 4567 89ab cdef 0123 4567 89ab cdef 0123 4567 89ab cdef 0123 4567 89ab cdef>

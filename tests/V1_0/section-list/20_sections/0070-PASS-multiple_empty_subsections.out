@@ -1,0 +1,6 @@
+one = IntermediateSection()
+one.two = IntermediateSection()
+one.two.three = SectionList()
+one.two.three[0] = SectionWithNames()
+one.two.three[1] = SectionWithNames()
+one.two.three[2] = SectionWithNames()

@@ -1,0 +1,9 @@
+# Erbsland Configuration Language Test File
+[byte_data_values]
+value 13: <<<
+    0123 4567 89ab cdef
+    0123 4567 89ab cdef
+    0123 4567 89ab cdef
+    0123 4567 89ab cdef
+    0123 4567 89ab cdef
+    >>>

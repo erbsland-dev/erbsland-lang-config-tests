@@ -1,0 +1,9 @@
+# Erbsland Configuration Language Test File
+[main]
+value: 1
+*[.list]
+value: 2
+*[.list]
+value: 3
+*[.list]
+value: 4

@@ -1,0 +1,6 @@
+# Erbsland Configuration Language Test File
+[main]
+text: """
+    彼は興奮した様子で言った："ダブルクオート文字はここで使える！"
+    どうやら彼は、それが日本語のテキストには不適切な文字だと知らなかったようだ…
+    """

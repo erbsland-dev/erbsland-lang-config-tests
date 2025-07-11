@@ -1,0 +1,5 @@
+# Erbsland Configuration Language Test File
+[main]
+float 01: 1.7976931348623157e+308   # +DBL_MAX
+float 02: -1.7976931348623157e+308  # -DBL_MAX
+float 03: 2.2250738585072014e-308   # +DBL_MIN (smallest normal double)

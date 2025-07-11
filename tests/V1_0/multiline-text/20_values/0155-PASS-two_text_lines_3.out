@@ -1,0 +1,2 @@
+multi_line_text = SectionWithNames()
+multi_line_text.value_29 = Text("First Line\u{a}    Second Line")

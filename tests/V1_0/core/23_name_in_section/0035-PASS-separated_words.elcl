@@ -1,0 +1,9 @@
+# Erbsland Configuration Language Test File
+[one_two]
+[one three]
+[one_two_three]
+[one two four]
+[a_a_a_a_a_a_a]
+[a_aa_aa_aa_aa_a]
+[a_1_2_3_4_5_6]
+[a_12_23_45_67_8]

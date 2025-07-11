@@ -1,0 +1,9 @@
+# Erbsland Configuration Language Test File
+[byte_data_values]
+value d: <<<                    # A multi_line byte_data value.
+    01b2 03c4 05a6              # Comments and line breaks are allowed
+    0728 390a 1b0c              # in multi_line "hex" byte-data.
+    >>>
+value e: <<<hex                 # Optional format prefix for multi_line byte-data.
+    01b203c4 05a60728 390a1b0c
+    >>>

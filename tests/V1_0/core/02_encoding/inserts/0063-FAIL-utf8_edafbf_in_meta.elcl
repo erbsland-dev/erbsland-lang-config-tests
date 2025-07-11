@@ -1,0 +1,4 @@
+# Erbsland Configuration Language Test File
+@version: "í¯¿1.0"
+[main]
+value: 12

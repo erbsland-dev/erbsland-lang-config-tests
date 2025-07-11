@@ -1,0 +1,4 @@
+main = SectionWithNames()
+main.data_01 = Bytes(01020304)
+main.data_02 = Bytes(01ffa07b)
+main.data_03 = Bytes(01ffa07b)

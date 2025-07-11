@@ -1,0 +1,6 @@
+# Erbsland Configuration Language Test File
+[main]
+Data: <<<
+    ffec 0009
+    8420 224e
+         >>>   # ERROR! Indentation pattern does not match.

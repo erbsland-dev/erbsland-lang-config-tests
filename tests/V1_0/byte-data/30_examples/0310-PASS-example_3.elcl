@@ -1,0 +1,5 @@
+# Erbsland Configuration Language Test File
+[main]
+Data 01: <01020304>
+Data 02: < 01 FF a0 7b >
+Data 03: < 01FF     a0   7b    >

@@ -1,0 +1,7 @@
+main = IntermediateSection()
+main.text = SectionWithTexts()
+main.text."  text  " = Integer(123)
+main.text."\u{1f604}" = Integer(123)
+main.text."\u{9}text\u{9}" = Integer(123)
+main.text."text" = Integer(123)
+main.text."text\u{22}\u{9}\u{d}\u{a}\u{2756}\u{2192}" = Integer(123)

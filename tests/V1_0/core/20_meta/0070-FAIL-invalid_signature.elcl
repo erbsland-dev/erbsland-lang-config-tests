@@ -1,0 +1,4 @@
+@signature: "<invalid>"
+# Signature at the correct location, but not valid.
+[main]
+value: 12

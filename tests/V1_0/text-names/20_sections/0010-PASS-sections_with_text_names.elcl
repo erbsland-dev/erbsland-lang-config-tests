@@ -1,0 +1,11 @@
+# Erbsland Configuration Language Test File
+[main.text."text"]
+[main.text."text\"\t\r\n\u2756\u{2192}"]
+[main. text . "😄"]
+[main.text. "  text  "  ]
+[main.text.		"	text	"		]
+-----[main.text."_text"]--------------------------------
+[main.relative]
+[."text 1"]
+[."text 2"]
+[."text 3"]
